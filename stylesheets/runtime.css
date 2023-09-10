@@ -1,7 +1,15 @@
 :root{
 	--deepslate:12, 12, 16;
 	--lightdeepslate: 20, 20, 24;
-	--snowwhite:255, 250, 250;
+	--snowwhite:250, 250, 250;
+}
+
+@media (prefers-color-scheme: dark){
+	body{color:rgb(var(--snowwhite)); background-color: rgb(var(--deepslate));}
+}
+
+@media (prefers-color-scheme: light){
+	body{color:rgb(var(--deepslate)); background-color: rgb(var(--snowwhite));}
 }
 
 body{
