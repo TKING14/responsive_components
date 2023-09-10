@@ -1,0 +1,27 @@
+:root{--sectionMaxWidth:100%;}
+section{
+	display:flex; 
+	flex-direction:column; 
+	justify-content:center; 
+	align-items:center;
+
+	min-width:fit-content; 
+	width:auto; 
+	max-width:var(--sectionMaxWidth); 
+	
+	min-height:fit-content; 
+	height:auto; 
+	max-height:auto;
+}
+
+div{
+	display:flex; 
+	flex-direction:row; 
+	justify-content:center; 
+	align-items:baseline; 
+}
+
+body, ul, ol{
+	margin:0;
+	padding:0;
+}

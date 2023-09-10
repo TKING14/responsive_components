@@ -1,0 +1,21 @@
+:root{
+	--deepslate:12, 12, 16;
+	--lightdeepslate: 20, 20, 24;
+	--snowwhite:255, 250, 250;
+}
+
+body{
+	font-size: 1.000rem;
+	letter-spacing: 0.05em;
+	color:rgb(var(--deepslate));
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{margin:1em 0 1rem 0;}
+
+h1{font-size:4.000rem; letter-spacing: -0.1rem;}
+h2{font-size:2.000rem; letter-spacing: -0.05rem;}
+h3{font-size:1.000rem; letter-spacing: -0.025rem;}
+
+.deepslate{background-color:rgb(var(--deepslate));}
+.snowwhite{background-color:rgb(var(--lightdeepslate));}
