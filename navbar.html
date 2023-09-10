@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navbar - Responsive Components - to create a succesfull web experience for all.</title>
+	<link rel="icon" href="location-dot-solid.svg">
+</head>
+<body>
+	<!--Navbar-->
+	<nav class="flex wmax alignment position colour">
+		<ul class="flex w100 spacing lstnone">
+			<li><a href="./index.html">Lorem</a></li>
+			<li><a href="./index.html">Ipsum</a></li>
+			<li><a href="./index.html">Dolor</a></li>
+		</ul>
+	</nav>
+
+	<!--
+		- position: changes the behavior of the navbar,
+		- alignment: changes the displacement of the navbar;
+	-->
+</body>
+<style>
+	:root{
+		--wmax_width:100%;
+		--w100_maxWidth:55rem;
+	}
+
+	.flex{display:flex;}
+	.wmax{width:var(--wmax_width);}
+	.w100{min-width:fit-content;width:inherit;max-width:var(--w100_maxWidth);}
+
+	.alignment{justify-content:center;}
+	.lstnone{list-style-type:none;}
+	.spacing{justify-content:space-around;}
+	
+	/*
+	.wmax{width:100%;}
+	.flex{display:flex;}
+	.lstnone{list-style-type:none;}
+	.alignment{justify-content:center;}
+	.spacing{justify-content:space-around;}
+	.w100{min-width:fit-content;width:inherit;max-width:55rem;}
+	*/
+
+	/*	.position{position:fixed;}		*/
+	/*	.colour{background-color:red;}	*/
+	/*	a{color:black;} */
+	</style>
+</html>
